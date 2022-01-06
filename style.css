@@ -1,0 +1,150 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin:0;
+    padding: 0;
+    border: 4px solid rgba(19, 18, 18, 0.678);
+    min-height: 100vh;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 35px;
+}
+
+small{
+    font-size: 15px;
+    font-family: 'Roboto Mono', monospace;
+}
+.flexible-banner{
+    display: flex;
+    margin-top: 50px;
+    margin-bottom:50px ;
+}
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+    margin-left: 55px;
+    margin-top: 70px;
+ }
+ .half-width img{
+    width: 70%;
+    margin-top: 0px;
+    margin-left: 60px;
+}
+ .half-width h1{
+     height: 33%;
+   
+     margin-bottom: 35px;
+     border-left: 4px solid orange;
+     padding-left: 15px;
+     border-radius: 3px ;
+ }
+.orange-color{
+   color: tomato;
+}
+.half-width p{
+    margin-bottom: 30px;
+}
+.ankor-tag{
+    text-decoration: none;
+    background-color: tomato;
+    color: rgb(250, 250, 250);
+    padding: 12px 24px;
+    border-radius: 7px;
+    font-family: 'Roboto Mono', monospace;
+    cursor: pointer;
+    
+}
+.ankor-tag:hover{
+      background-color: orange;
+      color: black;
+}
+ 
+
+.my-mission{
+    margin-top: 100px;
+text-align: center;
+}
+
+.middle-width img{
+    width: 140px;
+    margin-top: 20px;
+}
+.middle-width{
+ 
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    
+    border-radius: 20px;
+   
+}
+.border-color1{
+    background-color: #a5d3da;
+}
+.border-color2{
+background-color: #ebdada;
+}
+.border-color3{
+    background-color: #f0e6ca;
+}
+
+.develop{
+    margin-top: 90px;
+    margin-left: 100px;
+    width: 35%;
+    line-height:30px;
+}
+.develop img{
+    width: 80%;
+    margin-left: 70px;
+   
+}
+.develop h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+.contact-box{
+   padding: 60px;
+    margin-left: 150px;
+    background-color: #ecdaa7;
+    border-radius: 20px;
+}
+.contact-box input{
+    height: 20px;
+    width: 307px;
+    
+}
+
+.contact-details{
+    
+        padding: 60px;
+        margin-left: 140px;
+        margin-right: 150px;
+        background-color: #73b7c2;
+        border-radius: 20px;
+    
+}
+.contact-details img{
+    width: 8%;
+    margin-top: 20px;
+    margin-left: 60px;
+}
+
+footer{
+     background-color: black;
+      text-align: center;
+      color: white;
+      position: sticky;
+      top: 100%;
+      
+ } 
+footer h1{
+    font-family: 'The Nautigal', cursive;
+    padding-top: 20px;
+}
+footer p{
+    padding-bottom: 30px;
+}
